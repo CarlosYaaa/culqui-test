@@ -1,0 +1,30 @@
+service: culqui-test
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  lambdaHashingVersion: '20201221'
+  region: us-west-1
+  environment:
+    REDIS_HOST: '127.0.0.1'
+    REDIS_PORT: '6379'
+functions:
+  generateToken:
+    handler: src/functions/generate-token.storedCreditCardData
+    events:
+      - httpApi:
+          path: /token
+          method: post
+  getDataCard:
+    handler: src/functions/get-data-card.getCreditCardData
+    events:
+      - httpApi:
+          path: /card
+          method: get
+	
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+  - serverless-plugin-common-excludes
+
