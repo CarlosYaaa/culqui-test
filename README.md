@@ -38,7 +38,7 @@ Antes de comenzar, asegúrese de tener lo siguiente instalado en su sistema:
 
 **ENDPOINTS**
 
- Una vez desplegado el proyecto habran 2 endpoints lambdas
+ Una vez desplegado el proyecto, usaremos el comando npm run dev para poder ejecutar el proyecto de manera local y realizar la prueba de los 2 endpoints
 
  1. **Generate Token:**
 
