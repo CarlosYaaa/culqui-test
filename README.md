@@ -15,7 +15,7 @@ Antes de comenzar, asegúrese de tener lo siguiente instalado en su sistema:
 1. **Clonar este repositorio**
 
  ```bash
-   git clone https://github.com/CarlosYaaa/rimac-test
+   git clone https://github.com/CarlosYaaa/culqui-test
    cd rimas-test --CAMBIAR 
 
 2. **Instalar los paquetes de npm**
