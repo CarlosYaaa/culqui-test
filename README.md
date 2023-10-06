@@ -16,7 +16,7 @@ Antes de comenzar, asegúrese de tener lo siguiente instalado en su sistema:
 
  ```bash
    git clone https://github.com/CarlosYaaa/culqui-test
-   cd rimas-test --CAMBIAR 
+   cd culqui-test -- POSICIONARSE EN LA RUTA RAIZ DEL PROYECTO
 
 2. **Instalar los paquetes de npm**
 
