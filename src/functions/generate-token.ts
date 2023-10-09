@@ -26,6 +26,6 @@ export async function saveTokenInRedis(token: string, body: Card): Promise<void>
         expiration_year: body.expiration_year,
         expiration_month: body.expiration_month
     })
-    redisClient.expire(token, 60)
+    redisClient.expire(token, 900)
     redisClient.quit();
 }
